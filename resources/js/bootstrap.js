@@ -1,6 +1,13 @@
 import _ from 'lodash';
 window._ = _;
 
+import * as Popper from '@popperjs/core'
+window.Popper = Popper
+
+import 'bootstrap'
+
+import 'admin-lte'
+
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
