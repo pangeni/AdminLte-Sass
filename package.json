@@ -12,6 +12,8 @@
         "vite": "^3.0.0"
     },
     "dependencies": {
-        "adminlte": "^2.4.1"
+        "@popperjs/core": "^2.11.6",
+        "adminlte": "^2.4.1",
+        "bootstrap": "^5.2.0"
     }
 }
